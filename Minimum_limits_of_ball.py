@@ -8,7 +8,6 @@ public:
         int left = 1, right = *max_element(nums.begin(), nums.end());
         int result = right;
 
-        
         auto canDivide = [&](int x) {
             int operations = 0;
             for (int num : nums) {
@@ -18,7 +17,6 @@ public:
             return true;
         };
 
-      
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (canDivide(mid)) {
