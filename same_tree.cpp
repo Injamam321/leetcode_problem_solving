@@ -1,5 +1,5 @@
-# 100. Same Tree
-# cpp Solution! problem-100
+// 100. Same Tree
+// cpp Solution! problem-100
 
 class Solution {
 public:
