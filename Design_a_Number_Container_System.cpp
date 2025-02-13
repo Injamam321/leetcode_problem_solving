@@ -32,5 +32,5 @@ public:
             return -1;
         else
             return *smallestindex[number].begin();
-    }
+        }
 };
